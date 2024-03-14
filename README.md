@@ -30,7 +30,7 @@ Apply the Laplacian operator to the RGB image (image2) using OpenCV's cv2.Laplac
 
 ### 1. Smoothing Filters
 
-#### i) Using Averaging Filter
+### i) Using Averaging Filter
 ```
 import cv2
 import numpy as np
@@ -52,7 +52,7 @@ plt.imshow(image3)
 plt.title('Filtered')
 plt.axis('off')
 ```
-#### ii) Using Weighted Averaging Filter
+### ii) Using Weighted Averaging Filter
 ```
 import cv2
 import numpy as np
@@ -65,7 +65,7 @@ image4 = cv2.filter2D(image2, -1, kernel2)
 plt.imshow(image4)
 plt.title('Weighted Averaging Filtered')
 ```
-#### iii) Using Gaussian Filter
+### iii) Using Gaussian Filter
 ```
 import cv2
 import numpy as np
@@ -79,7 +79,7 @@ plt.title(' Gaussian Blurring Filtered')
 
 ```
 
-#### iv) Using Median Filter
+### iv) Using Median Filter
 ```
 import cv2
 import numpy as np
@@ -94,7 +94,7 @@ plt.title(' Median Blurring Filtered')
 ```
 
 ### 2. Sharpening Filters
-#### i) Using Laplacian Kernal
+### i) Using Laplacian Kernal
 ```
 import cv2
 import numpy as np
@@ -108,7 +108,7 @@ plt.imshow(image5)
 plt.title('Laplacian Kernel')
 
 ```
-#### ii) Using Laplacian Operator
+### ii) Using Laplacian Operator
 ```
 import cv2
 import numpy as np
@@ -124,30 +124,30 @@ plt.title('Laplacian Operator')
 ## OUTPUT:
 ### 1. Smoothing Filters
 
-#### i) Using Averaging Filter
+### i) Using Averaging Filter
 ![Screenshot 2024-03-14 193843](https://github.com/vasundrasriravi/Implementation-of-filter/assets/119393983/c4e9bc71-d107-44cb-a268-883975385908)
 
 
-#### ii) Using Weighted Averaging Filter
+### ii) Using Weighted Averaging Filter
 
 ![Screenshot 2024-03-14 194022](https://github.com/vasundrasriravi/Implementation-of-filter/assets/119393983/0715eed5-32f9-4178-992d-b70f569c671e)
 
 
-#### iii) Using Gaussian Filter
+### iii) Using Gaussian Filter
 ![Screenshot 2024-03-14 194104](https://github.com/vasundrasriravi/Implementation-of-filter/assets/119393983/dd4cc390-62e9-4be6-823e-5d0372fc462b)
 
 
-#### iv) Using Median Filter
+### iv) Using Median Filter
 ![Screenshot 2024-03-14 194211](https://github.com/vasundrasriravi/Implementation-of-filter/assets/119393983/25426974-a1eb-447c-9068-27cec40852c6)
 
 
 ### 2. Sharpening Filters
 
-#### i) Using Laplacian Kernal
+### i) Using Laplacian Kernal
 
 ![Screenshot 2024-03-14 194325](https://github.com/vasundrasriravi/Implementation-of-filter/assets/119393983/881cc621-954b-4952-9ab2-68ef4ae4e7e1)
 
-#### ii) Using Laplacian Operator
+### ii) Using Laplacian Operator
 
 ![Screenshot 2024-03-14 194409](https://github.com/vasundrasriravi/Implementation-of-filter/assets/119393983/876b279b-a661-47e5-abf1-64ebbceeb5c8)
 
